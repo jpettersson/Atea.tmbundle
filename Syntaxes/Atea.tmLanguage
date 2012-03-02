@@ -24,15 +24,21 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\t(.*?)(\r|\n)</string>
+			<string>[0-9]+(?:\.[0-9]*)?[a-z]</string>
+			<key>name</key>
+			<string>meta.diff</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\t(.*?).*</string>
 			<key>name</key>
 			<string>other.preprocessor.c</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>[0-9]+(?:\.[0-9]*)?[a-z]</string>
+			<string>\//(.*?).*</string>
 			<key>name</key>
-			<string>meta.diff</string>
+			<string>comment</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
