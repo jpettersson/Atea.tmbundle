@@ -8,10 +8,6 @@
 		<string>atea</string>
 		<string>txt</string>
 	</array>
-	<key>foldingStartMarker</key>
-	<string>/\*\*|\{\s*$</string>
-	<key>foldingStopMarker</key>
-	<string>\*\*/|^\s*\}</string>
 	<key>name</key>
 	<string>Atea</string>
 	<key>patterns</key>
@@ -20,25 +16,31 @@
 			<key>match</key>
 			<string>\[(.*?)\]</string>
 			<key>name</key>
-			<string>support</string>
+			<string>meta.atea.group</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>[0-9]+(?:\.[0-9]*)?[a-z]</string>
 			<key>name</key>
-			<string>meta.diff</string>
+			<string>meta.atea.time</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\t\*(.*?).*</string>
+			<key>name</key>
+			<string>meta.atea.comment.subtask</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\t\/(.*?).*</string>
+			<key>name</key>
+			<string>meta.atea.comment.subtask.completed</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\t(.*?).*</string>
 			<key>name</key>
-			<string>other.preprocessor.c</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>\//(.*?).*</string>
-			<key>name</key>
-			<string>comment</string>
+			<string>meta.atea.comment</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
