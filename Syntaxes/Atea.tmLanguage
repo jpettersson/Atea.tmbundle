@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>todo</string>
+		<string>atea</string>
+		<string>txt</string>
+	</array>
+	<key>foldingStartMarker</key>
+	<string>/\*\*|\{\s*$</string>
+	<key>foldingStopMarker</key>
+	<string>\*\*/|^\s*\}</string>
+	<key>name</key>
+	<string>Atea</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>\[(.*?)\]</string>
+			<key>name</key>
+			<string>support</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\t(.*?)(\r|\n)</string>
+			<key>name</key>
+			<string>other.preprocessor.c</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>[0-9]+(?:\.[0-9]*)?[a-z]</string>
+			<key>name</key>
+			<string>meta.diff</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.atea</string>
+	<key>uuid</key>
+	<string>80E989E0-4D69-4F64-AD2A-8E00CFCCC860</string>
+</dict>
+</plist>
