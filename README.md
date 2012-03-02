@@ -11,3 +11,8 @@ A comment beginning with *
 
 ###Completed subtask: 
 A comment beginning with /
+
+##Installation
+
+1. cd ~/Library/"Application Support"/TextMate/Bundles/
+2. git clone git@github.com:jpettersson/Atea.tmbundle.git
