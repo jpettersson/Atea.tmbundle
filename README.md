@@ -2,6 +2,8 @@
 
 [Atea](https://github.com/pkamenarsky/atea) is a great task manager and timetracker for MacOS. In this TextMate bundle I've colorized the Atea syntax for readability.
 
+![Screenshot](http://i.imgur.com/NWcnG.png)
+
 ##Subtasks
 
 Any line beginning with a tab is considered a comment in Atea. I've taken this a step further and defined sub tasks. 
