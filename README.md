@@ -1,7 +1,7 @@
 #TextMate bundle for [Atea](https://github.com/pkamenarsky/atea)
+This TextMate language Colorizes the Atea syntax for readability.
 
 [Atea](https://github.com/pkamenarsky/atea) is a great task manager and timetracker for MacOS.<br />
-In this TextMate bundle I've colorized the Atea syntax for readability.
 
 ![Screenshot](http://i.imgur.com/NWcnG.png)
 
