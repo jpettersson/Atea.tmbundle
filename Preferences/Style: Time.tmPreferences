@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Style: Time</string>
+	<key>scope</key>
+	<string>meta.atea.time</string>
+	<key>settings</key>
+	<dict>
+		<key>background</key>
+		<string>#eeeeee</string>
+		<key>foreground</key>
+		<string>#000000</string>
+	</dict>
+	<key>uuid</key>
+	<string>1E4CFD14-7C15-48E8-B2E2-5BCFF1E3DE7A</string>
+</dict>
+</plist>
